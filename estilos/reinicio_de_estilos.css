@@ -23,3 +23,9 @@ html {
 body {
   width: 100%;
 }
+
+input {
+  border: none;
+  outline: none;
+  padding: 0;
+}

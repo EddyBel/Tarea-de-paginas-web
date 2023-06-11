@@ -1,0 +1,121 @@
+/* Estilos */
+
+.contenido {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+/* Estilos de formulario */
+
+.formulario {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo__del__formulario {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.contener__de__entrada__de__datos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.prefijo__de__la__entrada {
+  font-size: 1rem;
+}
+
+.entrada__de__datos {
+  border: 1px solid #111111;
+  border-radius: 20px;
+  padding: 5px;
+  width: 100%;
+  transition: border-color 200ms;
+}
+
+.entrada__de__datos:focus {
+  border-color: #82e0aa;
+}
+
+.contenedor__de__las__entradas__de__correo__y__numero {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.entrada__del__mensaje {
+  width: 100%;
+  border: 1px solid #111111;
+  border-radius: 20px;
+  padding: 10px;
+  resize: none;
+  outline: none;
+  transition: border-color 200ms;
+  margin-top: 10px;
+}
+
+.entrada__del__mensaje:focus {
+  border-color: #82e0aa;
+}
+
+.boton__para__enviar__mensaje {
+  width: 100%;
+  padding: 10px;
+  background: #111111;
+  color: #eaecee;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+.boton__para__enviar__mensaje:hover,
+.boton__para__enviar__mensaje:focus {
+  background: #eaecee;
+  color: #111111;
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
+
+.gato__con__lentes {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  transform: translateX(40px) translateY(-40px);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+/* Estilos de mapa */
+
+.mapa {
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
