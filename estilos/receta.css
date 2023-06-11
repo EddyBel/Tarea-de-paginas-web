@@ -1,0 +1,110 @@
+/* Estilos del contenido */
+
+.contenido {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+hr {
+  width: 85%;
+  height: 3px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.titulo__de__la__receta {
+  text-align: center;
+  font-size: 3rem;
+}
+
+/* Estilos de los ingredientes */
+
+.contenedor__de__los__ingredientes__y__imagenes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.lista__de__ingredientes {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 500px;
+}
+
+.lista__de__ingredientes > li {
+  list-style-type: circle;
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.imagen__de__michi__chef {
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+/* Estilos de los pasos */
+
+.contenedor__de__los__pasos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.sibtitulo__de__los__pasos {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.lista__de__los__pasos {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lista__de__los__pasos > li {
+  margin-left: 30px;
+  list-style-type: decimal;
+}
+
+/* Estilo de la imagen final */
+
+.contenedor__de__los__muffins {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen__de__muffins {
+  width: 100%;
+  border-radius: 20px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
