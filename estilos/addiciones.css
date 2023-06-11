@@ -1,0 +1,110 @@
+/* Estilos del contenido */
+
+.contenido {
+  width: 100%;
+  padding-top: 50px;
+}
+
+/* Estilos de la primera seccion */
+
+.contenedor__del__contenido__incial {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.titulo {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.definicion__de__addciones {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.imagen__principal__de__addiciones {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 30px;
+}
+
+/* Estilos de las listas */
+
+.contendor__de__las__listas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.subtitulo {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.definicion__de__prevencion__de__adicciones {
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+}
+
+.contenedor__de__lista__e__imagen {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.listas {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.listas > li {
+  list-style-type: circle;
+  font-size: 0.7rem;
+  margin-left: 20px;
+}
+
+.imagen__de__las__listas {
+  border-radius: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Estilos de la imagen de libreta */
+
+.contenedor__de__imagenes__de__tarea {
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen__libreta {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 20px;
+}

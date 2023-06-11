@@ -1,0 +1,78 @@
+/* Estilos de contenido */
+
+.content {
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+.content__title {
+  font-size: 3rem;
+  margin: auto;
+  text-align: center;
+}
+
+.content__subtitle {
+  font-size: 1.5rem;
+  margin: auto;
+  text-align: center;
+}
+
+.content__container__interests {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.content__container__interests__text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.content__list > li {
+  font-size: 0.8rem;
+  list-style-type: circle;
+  margin-left: 25px;
+}
+
+.content__container__interests__description {
+  width: 100%;
+  margin: auto;
+  font-size: 0.8rem;
+}
+
+.content__interests__img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+}
+
+.content__container__video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 80px;
+  padding: 15px;
+}
+
+.content__video__description {
+  width: 100%;
+  max-width: 500px;
+}
+
+.content__video {
+  border-radius: 20px;
+}
