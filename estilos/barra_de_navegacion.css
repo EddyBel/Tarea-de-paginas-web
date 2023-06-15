@@ -1,6 +1,6 @@
 /* Estilos de barra de navegacion */
 
-.navbar {
+.barra_de_navegacion {
   width: 95%;
   margin: auto;
   margin-top: 10px;
@@ -16,25 +16,27 @@
   overflow: hidden;
 }
 
-.navbar__image {
+.imagen__de__la__barra__de__navegacion {
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
 
-.navbar__content__options {
+.contenedor__de__las__opciones__de__la__barra__de__navegacion {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-.navbar__options {
+.opcion__de__la__barra__de__navegacion {
   font-size: 1rem;
   transition: transform 200ms;
   color: #eaecee;
 }
 
-.navbar__options:hover {
+/* Crea un efecto cuando se pasa el mouse por encima */
+
+.opcion__de__la__barra__de__navegacion:hover {
   transform: scale(1.1);
 }

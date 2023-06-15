@@ -1,12 +1,14 @@
 /* Estilos de contenido */
 
-.content {
+.contenido__de__inicio {
   padding: 15px;
   padding-top: 50px;
   min-height: 100vh;
 }
 
-.content__welcome__image {
+/* Estilos de la imagen principal de bienvenida */
+
+.imagen__de__saludo {
   width: 100%;
   border-radius: 20px;
   height: 300px;
@@ -14,7 +16,9 @@
   margin: auto;
 }
 
-.content__container__description {
+/* Estilos de la descripcion */
+
+.contendor__de__la__descripción__de__inicio {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,22 +27,22 @@
   margin-top: 50px;
 }
 
-.content__image {
+.imagen__de__michi__bisco {
   max-width: 600px;
   width: 100%;
   border-radius: 20px;
 }
 
-.content__container__text {
+.contendor__de__la__descripcion {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.content__container__text > h1 {
+.titulo__de__la__descripcion {
   text-align: center;
 }
 
-.content__description {
+.descripcion {
   max-width: 500px;
 }

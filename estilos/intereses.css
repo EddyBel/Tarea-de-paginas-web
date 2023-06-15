@@ -1,23 +1,19 @@
 /* Estilos de contenido */
 
-.content {
+.contenido__de__intereses {
   padding-top: 50px;
   min-height: 100vh;
 }
 
-.content__title {
+.titulo__de__la__pagina__intereses {
   font-size: 3rem;
   margin: auto;
   text-align: center;
 }
 
-.content__subtitle {
-  font-size: 1.5rem;
-  margin: auto;
-  text-align: center;
-}
+/* Estilos de las listas de mis intereses personales */
 
-.content__container__interests {
+.contenedor__de__las__listas__de__intereses {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +22,7 @@
   flex-wrap: wrap;
 }
 
-.content__container__interests__text {
+.contenedor__de__los__textos__de__intereses {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -34,31 +30,39 @@
   max-width: 700px;
 }
 
-.content__list {
+.subtitulo {
+  font-size: 1.5rem;
+  margin: auto;
+  text-align: center;
+}
+
+.lista__de__intereses {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.content__list > li {
+.lista__de__intereses > li {
   font-size: 0.8rem;
   list-style-type: circle;
   margin-left: 25px;
 }
 
-.content__container__interests__description {
+.mini__resumen__de__mis__intereses {
   width: 100%;
   margin: auto;
   font-size: 0.8rem;
 }
 
-.content__interests__img {
+.imagen__de__michi__pintor {
   width: 100%;
   max-width: 500px;
   border-radius: 20px;
 }
 
-.content__container__video {
+/* Estilos de la parte del video */
+
+.contenedor__de__el__video {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,11 +72,11 @@
   padding: 15px;
 }
 
-.content__video__description {
-  width: 100%;
-  max-width: 500px;
+.video__de__youtube {
+  border-radius: 20px;
 }
 
-.content__video {
-  border-radius: 20px;
+.descripcion__breve__del__video {
+  width: 100%;
+  max-width: 500px;
 }

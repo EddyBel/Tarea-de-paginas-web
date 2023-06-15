@@ -1,6 +1,6 @@
 /* Estilos de pie de pagina */
 
-.footer {
+.pie__de__pagina {
   background: #111111;
   width: 100%;
   padding: 10px;
@@ -14,17 +14,25 @@
   margin-top: 90px;
 }
 
-.footer__content {
+/* Estilos de los datos que tiene el pie de pagina */
+
+.pie__de__pagina__licencia {
   color: #eaecee;
-  font-size: 1.4rem;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-}
-
-.footer__content.license {
   font-size: 2rem;
 }
 
-.footer__content.group {
+.pie__de__pagina__nombre {
+  color: #eaecee;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.pie__de__pagina__grado {
+  color: #eaecee;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
   font-size: 2rem;
 }
