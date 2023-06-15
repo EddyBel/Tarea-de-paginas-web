@@ -27,6 +27,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .opcion__de__la__barra__de__navegacion {
