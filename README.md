@@ -11,7 +11,9 @@
 </p>
 
 <p align="center">
-    <img src="./media/preview.jpeg" alt="preview__image" />
+    <img src="./media/Preview_1.png" alt="preview__image" />
+    <img src="./media/Preview_2.png" alt="preview__image" />
+    <img src="./media/Preview_3.png" alt="preview__image" />
 </p>
 
 El proyecto consiste en la creación de una página web simple para la materia de "Páginas Web". La página se desarrollará utilizando únicamente HTML y CSS, sin hacer uso de JavaScript. Será una página estática que incluirá una biografía, información de contacto y otros proyectos relacionados.
